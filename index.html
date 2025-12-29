@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kazembe Andrew | Data Analyst</title>
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<section class="hero">
+<!-- Sticky Navigation -->
+<nav class="navbar">
+  <ul>
+    <li><a href="#hero" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#value" class="nav-link">Value</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
 <img src="profile.jpg" class="profile">
 <div class="hero-text">
 <h1>Kazembe Andrew</h1>
@@ -17,7 +31,8 @@
 </div>
 </section>
 
-<section class="about">
+<!-- About Section -->
+<section id="about" class="about">
 <h2>Professional Summary</h2>
 <p>
 Mathematics graduate from Copperbelt University passionate about transforming data into business insights. 
@@ -25,7 +40,8 @@ Strong in analytical thinking, communication, and real-world problem solving.
 </p>
 </section>
 
-<section class="skills">
+<!-- Skills Section -->
+<section id="skills" class="skills">
 <h2>Core Strengths & Tools</h2>
 <div class="grid">
 <div class="card">Power BI</div>
@@ -36,7 +52,35 @@ Strong in analytical thinking, communication, and real-world problem solving.
 </div>
 </section>
 
-<section class="value">
+<!-- Strengths & Strategic Thinking Section -->
+<section class="strengths">
+<h2>My Analytical Strengths</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Technical Proficiency</h3>
+    <p>Power BI, SQL, Python, Excel 365, SPSS — solving real business problems with data.</p>
+  </div>
+  <div class="card">
+    <h3>Strategic Thinking</h3>
+    <p>Analyzing complex data to make smart decisions and optimize processes.</p>
+  </div>
+  <div class="card">
+    <h3>Business Acumen</h3>
+    <p>Understanding business needs and transforming data into actionable insights.</p>
+  </div>
+  <div class="card">
+    <h3>Communication Skills</h3>
+    <p>Clear storytelling of data findings to non-technical stakeholders.</p>
+  </div>
+  <div class="card">
+    <h3>Passion for Analysis</h3>
+    <p>Driven by curiosity and results, turning raw data into meaningful solutions.</p>
+  </div>
+</div>
+</section>
+
+<!-- Business Value Section -->
+<section id="value" class="value">
 <h2>Turning Data into Business Value</h2>
 <div class="grid">
 <div class="card">Business Context → Analytical Approach</div>
@@ -45,41 +89,93 @@ Strong in analytical thinking, communication, and real-world problem solving.
 </div>
 </section>
 
+<!-- Projects Section -->
 <section id="projects" class="projects">
 <h2>Featured Projects</h2>
 
+<!-- Project 1 -->
 <div class="project">
 <h3>Smart School Timetable Generator</h3>
-<p><b>Business Case:</b> Schools face scheduling conflicts and inefficiencies.</p>
-<p><b>Insights:</b> Automated clash-free scheduling reduces errors and saves time.</p>
-<p><b>Impact:</b> Improves academic operations.</p>
-<p><b>Tools:</b> Python</p>
-<a href="https://github.com/Andrew-Kazembe" target="_blank">View on GitHub</a>
+<p><b>Business Case:</b> Schools face scheduling conflicts due to multiple lecturers, grades, and limited classrooms.</p>
+<p><b>Analytical Approach:</b> Collected lecturer names, courses, and grades, then used Python to automatically assign courses to slots without clashes. Exported to CSV/Excel.</p>
+<p><b>Key Insights:</b>
+<ul>
+<li>Multi-lesson scheduling achieved without conflicts</li>
+<li>Algorithm resolves clashes and optimizes room usage</li>
+<li>Easy updates for lecturers or courses</li>
+</ul>
+</p>
+<p><b>Business Impact:</b> Saves time, minimizes conflicts, improves operational efficiency, scalable for larger institutions.</p>
+<p><b>Tools & Techniques:</b> Python, Pandas, algorithmic logic, lists/dictionaries.</p>
+<a href="https://github.com/Andrew-Kazembe/Smart-School-Timetable-Generator" target="_blank" class="btn">View on GitHub</a>
 </div>
 
+<!-- Project 2 -->
 <div class="project">
 <h3>Geography Quiz Game</h3>
-<p><b>Business Case:</b> Need for interactive learning tools.</p>
-<p><b>Insights:</b> Gamification improves student engagement.</p>
-<p><b>Tools:</b> Python</p>
+<p><b>Business Case:</b> Need for interactive learning tools to improve student engagement.</p>
+<p><b>Analytical Approach:</b> Built a quiz game with Python that dynamically presents questions and tracks scores.</p>
+<p><b>Key Insights:</b>
+<ul>
+<li>Gamification boosts engagement</li>
+<li>Immediate feedback helps learning retention</li>
+</ul>
+</p>
+<p><b>Business Impact:</b> Encourages interactive learning, improves retention, and can be expanded for multiple subjects.</p>
+<p><b>Tools & Techniques:</b> Python, logic programming.</p>
+<a href="https://github.com/Andrew-Kazembe/Geography-Quiz-Game" target="_blank" class="btn">View on GitHub</a>
 </div>
 
+<!-- Project 3 -->
 <div class="project">
 <h3>Water Usage Calculator</h3>
-<p><b>Business Case:</b> Need to track water consumption.</p>
-<p><b>Insights:</b> Encourages resource management.</p>
-<p><b>Tools:</b> Python</p>
+<p><b>Business Case:</b> Individuals and institutions need to track and manage water consumption efficiently.</p>
+<p><b>Analytical Approach:</b> Developed a Python program to input usage data and calculate total water consumption.</p>
+<p><b>Key Insights:</b>
+<ul>
+<li>Quick calculation reduces errors</li>
+<li>Users can monitor water consumption effectively</li>
+</ul>
+</p>
+<p><b>Business Impact:</b> Promotes resource management, helps track efficiency, and raises awareness about water conservation.</p>
+<p><b>Tools & Techniques:</b> Python, data input/output handling.</p>
+<a href="https://github.com/Andrew-Kazembe/Water-Usage-Calculator" target="_blank" class="btn">View on GitHub</a>
 </div>
 
 </section>
 
-<section class="contact">
+<!-- Contact Section -->
+<section id="contact" class="contact">
 <h2>Get In Touch</h2>
 <p>Email: penjanikazembe047@gmail.com</p>
-<p>GitHub: Andrew-Kazembe</p>
+<p>GitHub: <a href="https://github.com/Andrew-Kazembe" target="_blank">Andrew-Kazembe</a></p>
 <p>LinkedIn: <a href="https://www.linkedin.com/in/andrew-kazembe-0a08b5380" target="_blank">View Profile</a></p>
 <p>Phone: 0777306692 | WhatsApp: 0767648972</p>
 </section>
+
+<!-- JS for Active Section Highlight -->
+<script>
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-link");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    const sectionHeight = section.clientHeight;
+    if(pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight){
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if(link.getAttribute("href").includes(current)){
+      link.classList.add("active");
+    }
+  });
+});
+</script>
 
 </body>
 </html>
